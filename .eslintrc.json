@@ -1,16 +1,6 @@
 {
-  "extends": [
-    "@typoerr/eslint-config",
-    "@typoerr/eslint-config/+typescript"
-  ],
+  "extends": ["@typoerr/eslint-config", "@typoerr/eslint-config/+typescript", "@typoerr/eslint-config/+prettier"],
   "env": {
-    "node": true,
-    "commonjs": true,
-    "es6": true
-  },
-  "ignorePatterns": [
-    "**/public/**",
-    "**/dist/**",
-    "**/node_modules/**"
-  ]
+    "node": true
+  }
 }
